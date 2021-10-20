@@ -108,15 +108,6 @@ header .profile-image:hover {
   border-color: rgb(16, 200, 233);
 }
 
-h2 {
-  text-align: center;
-  color: rgb(16, 200, 233);
-  transition: all .5s;
-}
-h2:hover {
-  color:#cc00df;
-}
-
 ul.skills {
   padding: 0;
   text-align: center;
@@ -181,6 +172,35 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+/* Styles I added */
+
+h2 {
+  text-align: center;
+  color: rgb(16, 200, 233);
+  transition: all .5s;
+}
+h2:hover {
+  color:#cc00df;
+}
+
+.page-image {
+  margin: 25px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px dotted rgb(16, 200, 233);
+  transition: all .5s;
+  }
+.page-image:hover {
+  transform: scale(2);
+  border: 4px dotted #cc00df;
+}
+
+
+
+
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
